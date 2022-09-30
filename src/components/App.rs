@@ -1,5 +1,5 @@
-use yew::prelude::*;
 use crate::components::Messages::*;
+use yew::prelude::*;
 
 pub struct App;
 
@@ -14,7 +14,15 @@ impl Component for App {
 
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
-            <Messages></Messages>
+            <div class="app">
+                <div class="title">
+                    { "tmb." }
+                </div>
+                <div class="body">
+                    <div class="puffer">{""}</div>
+                    <div><Messages></Messages></div>
+                </div>
+            </div>
         }
     }
 }

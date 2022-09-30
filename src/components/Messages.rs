@@ -1,11 +1,11 @@
-use yew::{prelude::*, virtual_dom::VChild};
+use yew::{prelude::*};
 
 use crate::services::*;
 
 use super::Message::*;
 
 pub struct Messages {
-    messages: Vec<MessageProps>
+    messages: Vec<MessageProps>,
 }
 
 impl Component for Messages {
@@ -15,7 +15,7 @@ impl Component for Messages {
 
     fn create(ctx: &Context<Self>) -> Self {
         Self {
-            messages: MessagesService::getMessages()
+            messages: MessagesService::getMessages(),
         }
     }
 

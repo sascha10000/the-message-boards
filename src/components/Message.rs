@@ -21,7 +21,10 @@ impl Component for Message {
 
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
-            <div class="message">{ &ctx.props().text } </div>
+            <div class="message">
+                <div class="objid">{ String::from("#") + &ctx.props().objId }</div>
+                <div class="text">{ &ctx.props().text }</div>
+            </div>
         }
     }
 }
