@@ -1,33 +1,20 @@
-use yew::{prelude::*};
-
-use crate::services::*;
-
+use yew::prelude::*;
 use super::Message::*;
 
-pub struct Messages {
-    messages: Vec<MessageProps>,
+#[derive(Properties, PartialEq)]
+pub struct MessagesProps {
+    pub messages: Vec<MessageProps>,
 }
 
-impl Component for Messages {
-    type Message = ();
-
-    type Properties = ();
-
-    fn create(ctx: &Context<Self>) -> Self {
-        Self {
-            messages: MessagesService::getMessages(),
-        }
-    }
-
-    fn view(&self, ctx: &Context<Self>) -> Html {
-        html! {
-            <div class="messages">
+#[function_component(Messages)]
+pub fn messages(props: &MessagesProps) -> Html {
+    html! {
+        <div class="messages">
             {
-                self.messages.iter().map(|message| html!{
-                    <Message text={message.to_owned().text} objId={message.to_owned().objId}></Message>
+                props.messages.iter().map(|message| html!{
+                    <Message text={message.to_owned().text} obj_id={message.to_owned().obj_id}></Message>
                 }).collect::<Html>()
             }
             </div>
-        }
     }
 }

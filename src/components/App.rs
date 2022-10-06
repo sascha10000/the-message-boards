@@ -1,28 +1,38 @@
+use crate::components::MessageInput::*;
 use crate::components::Messages::*;
+use crate::services::*;
 use yew::prelude::*;
+use yew::virtual_dom::AttrValue;
 
-pub struct App;
+use super::Message::MessageProps;
 
-impl Component for App {
-    type Message = ();
+#[function_component(App)]
+pub fn app() -> Html {
+    let messages = use_state(|| MessageService::get());
+    
+    let on_post_message = {
+        let messages = messages.clone();
+        
+        Callback::from(move |message: String| {
+            let mut c_messages = (*messages).clone();
+            c_messages.push(MessageProps { text: AttrValue::from(message), obj_id: AttrValue::from("2") });
+            messages.set(c_messages);
+        })
+    };
 
-    type Properties = ();
-
-    fn create(ctx: &Context<Self>) -> Self {
-        Self {}
-    }
-
-    fn view(&self, ctx: &Context<Self>) -> Html {
-        html! {
-            <div class="app">
+    html! {
+        <div class="app">
                 <div class="title">
                     { "tmb." }
                 </div>
-                <div class="body">
+                <div class="center">
                     <div class="puffer">{""}</div>
-                    <div><Messages></Messages></div>
+                    <div class="body">
+                        <div><Messages messages={(*messages).clone()}></Messages></div>
+                        <div><MessageInput {on_post_message}></MessageInput></div>
+                    </div>
+                    <div class="puffer">{""}</div>
                 </div>
             </div>
-        }
     }
 }
