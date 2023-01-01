@@ -13,6 +13,7 @@ pub fn message_input(props: &MessageInputProps) -> Html {
     let oninput = {
         let text = text.clone();
         Callback::from(move |input: InputEvent| {
+            println!("{}", input.type_());
             match input.data() {
                 Some(value) => text.set((*text).clone() + &value),
                 None => text.set(String::from("")) // TODO: <BACKSPACE> <ENTF> <ENTER> needs to be handled
