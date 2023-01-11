@@ -1,0 +1,11 @@
+D:\workspace\2techguys.io\the-message-board\test-app\target\wasm32-unknown-unknown\debug\deps\gloo_file-0fc51feb0e0e90ab.rmeta: C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\lib.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\blob.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_list.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_reader.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\object_url.rs
+
+D:\workspace\2techguys.io\the-message-board\test-app\target\wasm32-unknown-unknown\debug\deps\libgloo_file-0fc51feb0e0e90ab.rlib: C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\lib.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\blob.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_list.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_reader.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\object_url.rs
+
+D:\workspace\2techguys.io\the-message-board\test-app\target\wasm32-unknown-unknown\debug\deps\gloo_file-0fc51feb0e0e90ab.d: C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\lib.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\blob.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_list.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_reader.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\object_url.rs
+
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\lib.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\blob.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_list.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\file_reader.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\gloo-file-0.2.3\src\object_url.rs:

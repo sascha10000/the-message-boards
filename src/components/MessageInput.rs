@@ -10,13 +10,14 @@ pub struct MessageInputProps {
 #[function_component(MessageInput)]
 pub fn message_input(props: &MessageInputProps) -> Html {
     let text = use_state(|| String::from(""));
+    
     let oninput = {
         let text = text.clone();
         Callback::from(move |input: InputEvent| {
             println!("{}", input.type_());
             match input.data() {
                 Some(value) => text.set((*text).clone() + &value),
-                None => text.set(String::from("")) // TODO: <BACKSPACE> <ENTF> <ENTER> needs to be handled
+                None => text.set(String::from("")) // TODO: <BACKSPACE> <DEL> <ENTER> needs to be handled
             };
         })
     };

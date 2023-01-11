@@ -1,0 +1,10 @@
+D:\workspace\2techguys.io\the-message-board\test-app\target\wasm32-unknown-unknown\debug\deps\serde_wasm_bindgen-34b867853b94c3c0.rmeta: C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\lib.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\de.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\error.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\ser.rs
+
+D:\workspace\2techguys.io\the-message-board\test-app\target\wasm32-unknown-unknown\debug\deps\libserde_wasm_bindgen-34b867853b94c3c0.rlib: C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\lib.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\de.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\error.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\ser.rs
+
+D:\workspace\2techguys.io\the-message-board\test-app\target\wasm32-unknown-unknown\debug\deps\serde_wasm_bindgen-34b867853b94c3c0.d: C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\lib.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\de.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\error.rs C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\ser.rs
+
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\lib.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\de.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\error.rs:
+C:\Users\Lerek\.cargo\registry\src\github.com-1ecc6299db9ec823\serde-wasm-bindgen-0.3.1\src\ser.rs:
